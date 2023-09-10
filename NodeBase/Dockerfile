@@ -1,7 +1,7 @@
 ARG NAMESPACE
 ARG VERSION
 ARG AUTHORS
-FROM ${NAMESPACE}/base:${VERSION}
+FROM spammusubi/selenium-arm-base:latest
 LABEL authors=${AUTHORS}
 
 USER root
